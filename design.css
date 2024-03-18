@@ -1,0 +1,96 @@
+.nav{
+    padding: 20px;
+    text-decoration: none;
+}
+
+.logo a{
+    font-size: 40px;
+    text-decoration: none;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.navbar li{
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 25px;
+    padding-inline: 20px;
+    color: black;
+}
+.navbar li a{
+    text-decoration: none;
+    color:black;
+}
+
+.navbar button {
+    font-size:large;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 3px;
+}
+
+.navbar button a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.active ,.navbar ul li:hover{
+    background-color:rgba(145, 142, 128, 0.32);
+    border-radius: 7px;
+}
+
+.sub-menu-1{
+    display: none;
+}
+
+.sub-menu-1{
+    display: block;
+}
+
+.maindiv{
+    width: 80%;
+    height:100%;
+    top: 55%;
+    left: 10%;
+    right: 2%;
+    bottom: 50%;
+    position: absolute;
+    background-image: url('https://media.istockphoto.com/id/479977238/photo/table-setting-for-an-event-party-or-wedding-reception.jpg?s=612x612&w=0&k=20&c=yIKLzW7wMydqmuItTTtUGS5cYTmrRGy0rXk81AltdTA=');
+    background-size: cover;
+    box-shadow: 1px 2px 10px 8px white;
+    animation: slider 20s infinite linear ;
+}
+
+
+@keyframes slider {
+    10%{background-image: url('https://media.istockphoto.com/id/479977238/photo/table-setting-for-an-event-party-or-wedding-reception.jpg?s=612x612&w=0&k=20&c=yIKLzW7wMydqmuItTTtUGS5cYTmrRGy0rXk81AltdTA=');}
+    25%{background-image:url('https://matrimonialgurus.com/wp-content/uploads/2021/07/decorate-wedding-mandap-flowers-beautiful-flower-decoration-ideas-wedding-day-1.jpeg');}
+    50%{background-image:url('https://i.pinimg.com/736x/14/98/0d/14980dd6ad61e3675e8434e0226c936e.jpg');}
+    75%{background-image:url('https://img.freepik.com/free-photo/bunch-flowers-leaves-table_1304-4187.jpg');}
+}
+
+h1{
+    font-family: cursive;
+}
+
+body{
+   background-image: url('https://img.freepik.com/free-vector/golden-bokeh-lights-background_1048-9227.jpg');
+   background-repeat: repeat-y;
+   background-size: cover;
+   background-position:initial;
+}
+p{
+    font-family: cursive;
+}
+pre{
+    font-size: large;
+    font-family: cursive;
+    font-weight: bold;
+}
